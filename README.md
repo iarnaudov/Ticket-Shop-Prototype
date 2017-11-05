@@ -17,7 +17,7 @@ What SoftUni wants from us as a developers and designers of a Web Application  f
 
 		a.Should have admin button only when we sign in with exact username and exact password. 
 		b.Functionality of admin button -  Create,Edit,Delete
-
+4.Tasks
 		
 		
 		The task will be separated as follow:
