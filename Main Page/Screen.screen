@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   Id="793473e2-ec49-4cbc-9442-6bd1e1ac162d">
+                                                                                Id="793473e2-ec49-4cbc-9442-6bd1e1ac162d">
     <Page.Content>
         <Content Width="1024" Height="768" Id="9f5ebe30-41e8-4430-81f0-fe1cb3995461">
             <Content.Layers>
@@ -68,7 +68,11 @@
                         </Add>
                         <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
                             <Add.Item>
-                                <Label RichText="Register/logIn" FontSize="18" FontFamily="Open Sans" Id="60cafe68-9fb1-4a87-872a-5e69301075b9" Panel.Bounds="679,151,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Register/logIn" FontSize="18" FontFamily="Open Sans" Id="60cafe68-9fb1-4a87-872a-5e69301075b9" Panel.Bounds="679,151,5*{5,2147483647},5*{5,2147483647}">
+                                    <Label.Click>
+                                        <CommandSwitchTo SceneId="37d03ef7-4178-4186-9865-81b5a4dd90b6" Created="11/06/2017 10:11:01" Id="ab8e60e4-7809-456e-8d30-826c24bd1cec" />
+                                    </Label.Click>
+                                </Label>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
@@ -1170,6 +1174,129 @@
                         <Remove Target="42f7261f-8e53-42a1-87ba-e61d1d4c1705" />
                         <Remove Target="7f70e131-7bc9-43b1-bb5c-74bd40df8f3b" />
                         <Remove Target="4dbe2ffa-4ab0-406c-b518-273c891418fb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Register/logIn" StateGroup="76af84b1-e87d-45fd-8003-44ad4adbe5d1" ParentScene="76af84b1-e87d-45fd-8003-44ad4adbe5d1" Created="11/06/2017 10:11:01" Id="37d03ef7-4178-4186-9865-81b5a4dd90b6">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d25b4721-968c-456d-9618-dff880f0ebd6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="Login" FontFamily="Roboto" Id="2e96d5a2-5ce6-41b8-814a-96ba2fffce24" Panel.Bounds="469,272,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <TextBox FontFamily="Roboto" Id="ceead842-b188-4aaa-b450-f4d8de392ad2" Panel.Bounds="534,372,250{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <TextBox FontFamily="Roboto" Id="5e3d300e-a304-4837-8ba7-cb27edb95baf" Panel.Bounds="534,428,250{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Username&lt;/Run&gt;" FontFamily="Roboto" Id="f86a09a6-d653-4ff7-b31c-6224befec08a" Panel.Bounds="349,368,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="Password" FontSize="24" FontFamily="Roboto" Id="499b2bd8-1970-4a59-84cd-d58e2359b056" Panel.Bounds="353,424,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Button Text="Login" FontFamily="Roboto" Id="45c7649c-f499-4b77-ab6b-9599d7224d3c" Panel.Bounds="704,489,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Link Text="Create account" FontSize="16" FontFamily="Roboto" FontStyle="Normal|Underline" Id="0b943f98-a41f-4db4-895a-e5d4d0ccb0ca" Name="Register" Panel.Bounds="534,497,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandSwitchTo SceneId="49e82a7f-edd7-45ea-8824-b221158ff52d" Created="11/06/2017 10:11:57" Id="388d7f01-8c07-4898-a515-18ed3ec082db" />
+                                    </Link.Click>
+                                </Link>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="16c4bd69-1a1b-4d77-89de-a1ed1e6ff653" />
+                        <Remove Target="ed221770-c2b2-4ca1-af90-261951cde329" />
+                        <Remove Target="bb6aa49a-7ec3-441e-bcda-e5c1783148e6" />
+                        <Remove Target="053e35a0-ff44-4105-b231-9565a75ae6f1" />
+                        <Remove Target="18d95e3f-2946-417e-bafb-6c6d8415fc11" />
+                        <Remove Target="85480153-3934-499c-901a-395e6c518629" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Register" StateGroup="37d03ef7-4178-4186-9865-81b5a4dd90b6" ParentScene="37d03ef7-4178-4186-9865-81b5a4dd90b6" Created="11/06/2017 10:11:57" Id="49e82a7f-edd7-45ea-8824-b221158ff52d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d76dc04e-bf2e-4bb5-802d-a30177806e62">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="Registration" FontFamily="Roboto" Id="06252ffe-b9cf-44f8-8dcf-8d4272be1e0d" Panel.Bounds="443,271,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <TextBox FontFamily="Roboto" Id="e38d3a4b-43ad-4f81-ae3c-422deb55c0e7" Panel.Bounds="534,372,250{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <TextBox FontFamily="Roboto" Id="134f1782-19ca-44e9-ae8a-ee983650ff3a" Panel.Bounds="534,428,250{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <TextBox FontFamily="Roboto" Id="34cfc14d-5f72-499e-baf6-e5cbb71431e6" Panel.Bounds="534,484,250{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <TextBox FontFamily="Roboto" Id="1be8b1ee-6d92-4f6c-adec-a3f1880a282e" Panel.Bounds="534,540,250{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Username&lt;/Run&gt;" FontFamily="Roboto" Id="a24f0a4d-1948-4f5e-a3d0-a4527d201f88" Panel.Bounds="349,368,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;E-mail&lt;/Run&gt;" FontFamily="Roboto" Id="ebd8f4af-f607-4cd3-aa44-81e33d044c45" Panel.Bounds="393,424,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="Password" FontSize="24" FontFamily="Roboto" Id="486276fd-b1bc-498f-a3f1-29c92e2ab887" Panel.Bounds="353,476,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Password (again)&lt;/Run&gt;" FontFamily="Roboto" Id="d20adb60-a1e9-45c2-b9b0-4f1f68e3ff58" Panel.Bounds="271,529,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Button Text="Close" FontFamily="Roboto" Id="1ad7e39c-33b5-484a-a3b0-a7cb74106b38" Panel.Bounds="704,596,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="742f81b3-24d4-461a-9c49-4d6aafda30b6">
+                            <Add.Item>
+                                <Button Text="Submit" FontFamily="Roboto" Id="65cc14e6-5c99-4bc7-a5b0-ec0a496829c6" Panel.Bounds="591,596,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="2e96d5a2-5ce6-41b8-814a-96ba2fffce24" />
+                        <Remove Target="f86a09a6-d653-4ff7-b31c-6224befec08a" />
+                        <Remove Target="499b2bd8-1970-4a59-84cd-d58e2359b056" />
+                        <Remove Target="5e3d300e-a304-4837-8ba7-cb27edb95baf" />
+                        <Remove Target="ceead842-b188-4aaa-b450-f4d8de392ad2" />
+                        <Remove Target="0b943f98-a41f-4db4-895a-e5d4d0ccb0ca" />
+                        <Remove Target="45c7649c-f499-4b77-ab6b-9599d7224d3c" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
