@@ -623,6 +623,7 @@
                         <Remove Target="6c97364f-61d5-4e91-8c61-acd4ae69c852" />
                         <Remove Target="e1113089-619c-437d-8c35-e6f7b9762932" />
                         <Remove Target="9a4d8f62-705a-4e5a-9991-896080947116" />
+                        <Remove Target="21ce7082-5466-4086-9bcc-ad837cd762cd" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

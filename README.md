@@ -24,7 +24,7 @@ What SoftUni wants from us as a developers and designers of a Web Application  f
 		
 		Point 1 (a,b,c,d) => Dimitar Radkov
 		
-		Point 2 (a,b) => ........
+		Point 2 (a,b) => Ivelin Arnaudov
 		
 		Point 2 (c, Point 3 - a) => ........
 		
