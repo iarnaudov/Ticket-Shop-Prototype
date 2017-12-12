@@ -1,4 +1,4 @@
-What SoftUni wants from us as a developers and designers of a Web Application  for  Online Tickets!
+This project consist the development of a Web Application  for  Online Tickets!
 
 1.We have to make a functionality for upcomming events .(Without registration)
 
